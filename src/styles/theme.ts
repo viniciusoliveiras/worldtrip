@@ -14,6 +14,10 @@ export const theme = extendTheme({
       '550': 'rgba(255, 186, 8, 0.5)' /* Highlight 50% */,
     },
   },
+  fonts: {
+    heading: 'Poppins',
+    body: 'Poppins',
+  },
   styles: {
     global: {
       body: {

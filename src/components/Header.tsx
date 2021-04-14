@@ -1,3 +1,3 @@
 export function Header() {
-  return <h2>Hi, bitch</h2>;
+  return <h1>Hi, there</h1>;
 }
