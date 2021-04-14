@@ -5,7 +5,7 @@ export function Banner() {
     <Flex
       width='100%'
       height={[178, 238, 335]}
-      bgImage='url(/background-banner.png)'
+      bgImage='url(images/background-banner.png)'
     >
       <Flex justifyContent='space-between' align='center' width='100%' mx='36'>
         <Box>
@@ -17,7 +17,7 @@ export function Banner() {
             sempre sonhou.
           </Text>
         </Box>
-        <Image src='/airplane.png' mt='24' />
+        <Image src='images/airplane.png' mt='24' />
       </Flex>
     </Flex>
   );

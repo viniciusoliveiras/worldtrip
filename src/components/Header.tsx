@@ -12,7 +12,7 @@ export function Header() {
       align='center'
       justifyContent='center'
     >
-      <Image src='../logo.svg' alt='WorldTrip' boxSize='auto' />
+      <Image src='images/logo.svg' alt='WorldTrip' boxSize='auto' />
     </Flex>
   );
 }
