@@ -96,3 +96,7 @@ $ yarn dev
 ## 📄 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+<br />
+<br />
+<p align="center"><a href="#world-trip">🔝 Voltar ao topo 🔝</a></p>
