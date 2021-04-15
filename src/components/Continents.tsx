@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { useEffect, useState } from 'react';
 
 import { api } from '../services/api';
+import { url } from 'node:inspector';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -13,6 +14,7 @@ interface ContinentsProps {
   id: number;
   name: string;
   description: string;
+  image: string;
 }
 
 export function Continents() {
@@ -41,12 +43,14 @@ export function Continents() {
             <Flex
               width={[1024, 1240]}
               height={[178, 238, 450]}
+              bgImage={`url('${continent.image}')`}
               bgRepeat='no-repeat'
-              bgImage='url(https://i.imgur.com/ilMh2Oc.jpg?1)'
-              backgroundPosition='center'
+              bgPosition='100% 30%'
+              bgSize='cover'
               justifyContent='center'
               alignItems='center'
               flexDirection='column'
+              style={{ boxShadow: 'inset 0 0 0 50vw rgba(0,0,0,0.5)' }}
             >
               <Text
                 fontWeight='bold'
