@@ -28,6 +28,7 @@ As seguintes ferramentas estão sendo usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Next.js](https://nextjs.org/)
 - [Chakra UI](https://chakra-ui.com/)
 
 ## 💻 Projeto
@@ -53,6 +54,34 @@ O layout da aplicação está disponível no [`Figma`](https://www.figma.com/fil
   <img src="./assets/mobile-home-page.svg" width="200px"/>
   <img src="https://i.imgur.com/ca9KNGj.png?1" width="200px"/>
 </p>
+
+## 🚀 Como executar
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Yarn](https://yarnpkg.com/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🧭 Rodando a aplicação
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/viniciusoliveiras/worldtrip.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd worldtrip
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação
+$ yarn dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
 
 ## ✍🏾 Autor
 <a href="https://github.com/viniciusoliveiras/">
