@@ -1,0 +1,26 @@
+{
+  "continents": [
+    { "id": 1, "name": "Europa", "description": "O continente mais antigo." },
+    {
+      "id": 2,
+      "name": "América do Norte",
+      "description": "O segundo maior continente do mundo"
+    },
+    {
+      "id": 3,
+      "name": "América do Sul",
+      "description": "O com mais áreas de planícies tropicais do Mundo."
+    },
+    {
+      "id": 4,
+      "name": "Ásia",
+      "description": "O berço das principais religiões do mundo."
+    },
+    { "id": 5, "name": "África", "description": "O berço da humanidade" },
+    {
+      "id": 6,
+      "name": "Oceania",
+      "description": "O menor continente do mundo e também o mais novo"
+    }
+  ]
+}
