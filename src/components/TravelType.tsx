@@ -2,7 +2,7 @@ import { Flex, Text, Image, Box, Grid } from '@chakra-ui/react';
 
 export function TravelTypes() {
   return (
-    <Flex mt='28' mx='36' justifyContent='center' width='1440'>
+    <Flex mt='28' mx={[40, 52]} justifyContent='center' width={[1440, 1024]}>
       <Grid templateColumns='repeat(5, 1fr)' gap={28}>
         <Flex flexDirection='column' width='40' alignItems='center'>
           <Image src='images/cocktail.png' width='32' />

@@ -3,7 +3,8 @@ import { Flex, Text, Image, Box } from '@chakra-ui/react';
 export function Banner() {
   return (
     <Flex
-      width='100%'
+      width={[1024, 1440]}
+      maxWidth=''
       height={[178, 238, 335]}
       bgImage='url(images/background-banner.png)'
     >
