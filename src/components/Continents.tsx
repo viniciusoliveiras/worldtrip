@@ -41,7 +41,7 @@ export function Continents() {
         {continents.map((continent) => (
           <SwiperSlide key={continent.id}>
             <Flex
-              width={[1024, 1240]}
+              width='100%'
               height={[178, 238, 450]}
               bgImage={`url('${continent.image}')`}
               bgRepeat='no-repeat'

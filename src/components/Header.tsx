@@ -5,14 +5,14 @@ export function Header() {
     <Flex
       as='header'
       w='100%'
-      maxWidth='1440'
+      maxWidth={1450}
       h='24'
       mx='auto'
-      px='6'
+      p='6'
       align='center'
-      justifyContent='center'
+      justify='center'
     >
-      <Image src='images/logo.svg' alt='WorldTrip' boxSize='auto' />
+      <Image src='images/logo.svg' alt='WorldTrip' />
     </Flex>
   );
 }

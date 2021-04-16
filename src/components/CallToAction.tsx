@@ -3,14 +3,13 @@ import { Flex, Text, Divider, Stack } from '@chakra-ui/react';
 export function CallToAction() {
   return (
     <Flex mt='20' justifyContent='center'>
-      <Stack justifyContent='center'>
+      <Stack justifyContent='center' align='center'>
         <Divider
           width='5.625rem'
           border='2px solid '
           borderColor='#47585B'
-          textAlign='center'
+          bgColor='#47585B'
           mb='14'
-          mx='42rem'
         />
         <Text
           fontSize='4xl'

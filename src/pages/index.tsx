@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
-import { TravelTypes } from '../components/TravelType';
+import { TravelTypes } from '../components/TravelTypes';
 import { CallToAction } from '../components/CallToAction';
 import { Continents } from '../components/Continents';
 
