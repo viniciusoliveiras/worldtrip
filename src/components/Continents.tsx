@@ -54,7 +54,7 @@ export function Continents() {
             >
               <Text
                 fontWeight='bold'
-                fontSize='5xl'
+                fontSize={{ lg: '4xl', xl: '5xl' }}
                 color='gray.50'
                 textAlign='center'
                 align='center'
@@ -63,7 +63,7 @@ export function Continents() {
               </Text>
               <Text
                 fontWeight='bold'
-                fontSize='2xl'
+                fontSize={{ lg: 'xl', xl: '2xl' }}
                 color='gray.50'
                 textAlign='center'
                 align='center'

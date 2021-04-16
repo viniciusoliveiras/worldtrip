@@ -12,9 +12,9 @@ export function CallToAction() {
           mb='14'
         />
         <Text
-          fontSize='4xl'
+          fontSize={{ lg: '3xl', xl: '4xl' }}
           color='gray.500'
-          lineHeight='3.375rem'
+          lineHeight={{ lg: '2.75rem', xl: '3.375rem' }}
           fontWeight='medium'
           textAlign='center'
         >
