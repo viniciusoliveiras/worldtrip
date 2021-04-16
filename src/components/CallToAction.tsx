@@ -2,7 +2,7 @@ import { Flex, Text, Divider, Stack } from '@chakra-ui/react';
 
 export function CallToAction() {
   return (
-    <Flex mt='20' justifyContent='center'>
+    <Flex mt={{ md: '14', lg: '20', xl: '20' }} justifyContent='center'>
       <Stack justifyContent='center' align='center'>
         <Divider
           width='5.625rem'
@@ -12,9 +12,9 @@ export function CallToAction() {
           mb='14'
         />
         <Text
-          fontSize={{ lg: '3xl', xl: '4xl' }}
+          fontSize={{ md: 'xl', lg: '3xl', xl: '4xl' }}
           color='gray.500'
-          lineHeight={{ lg: '2.75rem', xl: '3.375rem' }}
+          lineHeight={{ md: '2rem', lg: '2.75rem', xl: '3.375rem' }}
           fontWeight='medium'
           textAlign='center'
         >
