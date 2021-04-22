@@ -1,10 +1,4 @@
-import {
-  Flex,
-  Grid,
-  GridItem,
-  Box,
-  useBreakpointValue,
-} from '@chakra-ui/react';
+import { Flex, Grid, GridItem, useBreakpointValue } from '@chakra-ui/react';
 import { TravelIcons } from './TravelIcons';
 import { TravelList } from './TravelList';
 
