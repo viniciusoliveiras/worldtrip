@@ -2,10 +2,10 @@ import { extendTheme } from '@chakra-ui/react';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 
 const breakpoints = createBreakpoints({
-  sm: '425px',
-  md: '768px',
-  lg: '1024px',
-  xl: '1440px',
+  sm: '30em',
+  md: '48em',
+  lg: '64em',
+  xl: '90em',
 });
 
 export const theme = extendTheme({

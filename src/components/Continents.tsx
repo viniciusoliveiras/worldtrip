@@ -1,15 +1,11 @@
-import { Flex, Text, Image, Box, Grid } from '@chakra-ui/react';
-
+import { useEffect, useState } from 'react';
+import { Flex, Text } from '@chakra-ui/react';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { useEffect, useState } from 'react';
-
 import { api } from '../services/api';
-import { url } from 'node:inspector';
 
 SwiperCore.use([Navigation, Pagination]);
-
 interface ContinentsProps {
   id: number;
   name: string;
@@ -28,7 +24,12 @@ export function Continents() {
 
   console.log(continents);
   return (
-    <Flex mx='auto' mt='14' mb='10' maxWidth='1240px'>
+    <Flex
+      mx='auto'
+      mt='14'
+      mb='10'
+      maxWidth={{ md: '700px', lg: '900px', xl: '1240px' }}
+    >
       <Swiper
         spaceBetween={0}
         slidesPerView={1}
