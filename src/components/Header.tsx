@@ -1,6 +1,10 @@
 import { Flex, Image, useBreakpointValue } from '@chakra-ui/react';
+import { ChevronLeftIcon } from '@chakra-ui/icons';
+interface HeaderProps {
+  isHomePage: boolean;
+}
 
-export function Header() {
+export function Header({ isHomePage }: HeaderProps) {
   const isWideVersion = useBreakpointValue({
     sm: false,
     md: true,
@@ -19,7 +23,20 @@ export function Header() {
           align='center'
           justify='center'
         >
-          <Image src='images/logo.svg' alt='WorldTrip' />
+          {!isHomePage && (
+            <ChevronLeftIcon
+              fontSize='32'
+              className='backButton'
+              position='absolute'
+              transform={{
+                md: 'translateX(-18rem)',
+                lg: 'translateX(-19rem)',
+                xl: 'translateX(-20rem)',
+              }}
+            />
+          )}
+
+          <Image src='../images/logo.svg' alt='WorldTrip' />
         </Flex>
       )}
 

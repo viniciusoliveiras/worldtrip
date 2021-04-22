@@ -13,7 +13,7 @@ export default function Home() {
         <title>Home - World Trip</title>
       </Head>
 
-      <Header />
+      <Header isHomePage={true} />
       <Banner />
       <TravelTypes />
       <CallToAction />
