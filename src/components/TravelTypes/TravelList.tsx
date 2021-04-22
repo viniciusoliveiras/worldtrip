@@ -10,12 +10,7 @@ export function TravelList({ description, align }: TravelListProps) {
     <Flex flexDirection='row' alignItems='center' justify={align}>
       <Image src='images/elipse.png' mr='2' />
 
-      <Text
-        fontWeight='semibold'
-        fontSize={{ md: 'sm', lg: 'md', xl: 'xl' }}
-        color='gray.500'
-        textAlign='left'
-      >
+      <Text fontWeight='medium' fontSize='lg' color='gray.500' textAlign='left'>
         {description}
       </Text>
     </Flex>

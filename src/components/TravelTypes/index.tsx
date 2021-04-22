@@ -31,7 +31,14 @@ export function TravelTypes() {
       )}
 
       {!isWideVersion && (
-        <Grid h='120px' templateRows='repeat(3, 1fr)' gap={4} mt='9' mb='9'>
+        <Grid
+          h='120px'
+          templateRows='repeat(3, 1fr)'
+          gap={4}
+          mt='9'
+          mb='9'
+          width='72'
+        >
           <GridItem colSpan={2}>
             <TravelList description='vida noturna' align='flex-start' />
           </GridItem>

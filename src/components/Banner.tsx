@@ -61,14 +61,10 @@ export function Banner() {
         >
           <Flex align='center' width='100%' ml='4'>
             <Box>
-              <Text
-                color='gray.50'
-                fontSize='xl'
-                lineHeight={{ md: '1.5rem', lg: '2.5rem', xl: '3.375rem' }}
-              >
+              <Text color='gray.50' fontSize='xl' lineHeight='tall'>
                 5 Continentes, <br /> infinitas possibilidades.
               </Text>
-              <Text color='gray.100' fontSize='sm' mt='2'>
+              <Text color='gray.100' fontSize='sm' mt='2' lineHeight='shorter'>
                 Chegou a hora de tirar do papel a viagem que
                 <br /> você sempre sonhou.
               </Text>
