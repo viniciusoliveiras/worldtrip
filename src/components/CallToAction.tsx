@@ -39,14 +39,15 @@ export function CallToAction() {
       )}
 
       {!isWideVersion && (
-        <Flex mt='9' justifyContent='center'>
+        <Flex justifyContent='center'>
           <Stack justifyContent='center' align='center'>
             <Divider
-              width='5.625rem'
+              width='3.75rem'
               border='2px solid '
               borderColor='#47585B'
               bgColor='#47585B'
-              mb='14'
+              mt='9'
+              mb='6'
             />
             <Text
               fontSize='xl'
