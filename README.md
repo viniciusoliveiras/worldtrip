@@ -30,6 +30,7 @@ As seguintes ferramentas estão sendo usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Next.js](https://nextjs.org/)
 - [Chakra UI](https://chakra-ui.com/)
+- [Swiper](https://swiperjs.com/react)
 
 ## 💻 Projeto
 
@@ -75,6 +76,9 @@ $ cd worldtrip
 
 # Instale as dependências
 $ yarn
+
+# Inicie o JSON Server para carregar os dados da API
+$ yarn server
 
 # Execute a aplicação
 $ yarn dev
