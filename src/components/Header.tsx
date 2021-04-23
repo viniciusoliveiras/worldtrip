@@ -32,8 +32,8 @@ export function Header({ isHomePage }: HeaderProps) {
                 position='absolute'
                 transform={{
                   md: 'translateX(-18rem)',
-                  lg: 'translateX(-19rem)',
-                  xl: 'translateX(-20rem)',
+                  lg: 'translateX(-23rem)',
+                  xl: 'translateX(-28.5rem)',
                 }}
               />
             </Link>
@@ -54,8 +54,18 @@ export function Header({ isHomePage }: HeaderProps) {
           align='center'
           justify='center'
         >
+          {!isHomePage && (
+            <Link href='/'>
+              <ChevronLeftIcon
+                fontSize='16'
+                className='backButton'
+                position='absolute'
+                transform='translateX(-8rem)'
+              />
+            </Link>
+          )}
           <Image
-            src='images/logo.svg'
+            src='../images/logo.svg'
             alt='WorldTrip'
             boxSize='20'
             objectFit='contain'

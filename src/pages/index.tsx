@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { Header } from '../components/Header';
-import { Banner } from '../components/Banner';
+import { BannerHome } from '../components/BannerHome';
 import { TravelTypes } from '../components/TravelTypes';
 import { CallToAction } from '../components/CallToAction';
 import { Continents } from '../components/Continents';
@@ -14,9 +14,13 @@ export default function Home() {
       </Head>
 
       <Header isHomePage={true} />
-      <Banner />
+
+      <BannerHome />
+
       <TravelTypes />
+
       <CallToAction />
+
       <Continents />
     </>
   );

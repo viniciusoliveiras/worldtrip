@@ -5,14 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Link from 'next/link';
 
 import { api } from '../services/api';
+import { ContinentsProps } from '../types';
 
 SwiperCore.use([Navigation, Pagination]);
-interface ContinentsProps {
-  id: number;
-  name: string;
-  description: string;
-  image: string;
-}
 
 export function Continents() {
   const isWideVersion = useBreakpointValue({
@@ -102,39 +97,41 @@ export function Continents() {
           >
             {continents.map((continent) => (
               <SwiperSlide key={continent.id}>
-                <Flex
-                  width='100%'
-                  height='100%'
-                  bgImage={`url('${continent.image}')`}
-                  bgRepeat='no-repeat'
-                  bgPosition='100% 30%'
-                  bgSize='cover'
-                  justifyContent='center'
-                  alignItems='center'
-                  flexDirection='column'
-                  style={{ boxShadow: 'inset 0 0 0 50vw rgba(0,0,0,0.5)' }}
-                >
-                  <Text
-                    fontWeight='semibold'
-                    fontSize='2xl'
-                    color='gray.50'
-                    textAlign='center'
-                    align='center'
+                <Link href={`/continent/${continent.name}`}>
+                  <Flex
+                    width='100%'
+                    height='100%'
+                    bgImage={`url('${continent.image}')`}
+                    bgRepeat='no-repeat'
+                    bgPosition='100% 30%'
+                    bgSize='cover'
+                    justifyContent='center'
+                    alignItems='center'
+                    flexDirection='column'
+                    style={{ boxShadow: 'inset 0 0 0 50vw rgba(0,0,0,0.5)' }}
                   >
-                    {continent.name}
-                  </Text>
-                  <Text
-                    fontWeight='semibold'
-                    fontSize='sm'
-                    color='gray.50'
-                    textAlign='center'
-                    align='center'
-                    mt='4'
-                    w='56'
-                  >
-                    {continent.description}
-                  </Text>
-                </Flex>
+                    <Text
+                      fontWeight='semibold'
+                      fontSize='2xl'
+                      color='gray.50'
+                      textAlign='center'
+                      align='center'
+                    >
+                      {continent.name}
+                    </Text>
+                    <Text
+                      fontWeight='semibold'
+                      fontSize='sm'
+                      color='gray.50'
+                      textAlign='center'
+                      align='center'
+                      mt='4'
+                      w='56'
+                    >
+                      {continent.description}
+                    </Text>
+                  </Flex>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
