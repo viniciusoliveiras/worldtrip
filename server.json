@@ -5,42 +5,66 @@
       "name": "Europa",
       "description": "O continente mais antigo.",
       "image": "https://images.unsplash.com/photo-1490642914619-7955a3fd483c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1240&q=40",
-      "bannerImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pelo divisor de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
+      "coutriesCount": 50,
+      "languagesAmount": 24,
+      "cities100": 32
     },
     {
       "id": 2,
       "name": "América do Norte",
       "description": "O segundo maior continente do mundo",
       "image": "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
-      "bannerImage": "https://images.unsplash.com/photo-1476977251893-330046eb5ec8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1476977251893-330046eb5ec8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "bio": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano.",
+      "coutriesCount": 3,
+      "languagesAmount": 256,
+      "cities100": 7
     },
     {
       "id": 3,
       "name": "América do Sul",
       "description": "O com mais áreas de planícies tropicais do Mundo.",
       "image": "https://images.unsplash.com/photo-1515700281303-5a0a73d9c584?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "bannerImage": "https://images.unsplash.com/photo-1524943890419-892660e224f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1524943890419-892660e224f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80",
+      "bio": "A América do Sul tem paisagens incríveis e uma cultura riquíssima. A diversidade é outro ponto alto. Você pode escolher visitar praias com águas cristalinas, montanhas geladas e até cidades cosmopolitas.",
+      "coutriesCount": 13,
+      "languagesAmount": 456,
+      "cities100": 6
     },
     {
       "id": 4,
       "name": "Ásia",
       "description": "O berço das principais religiões do mundo.",
       "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8amFwYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
-      "bannerImage": "https://images.unsplash.com/photo-1581156546910-1b11d3bd9efc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1581156546910-1b11d3bd9efc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+      "bio": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico.",
+      "coutriesCount": 51,
+      "languagesAmount": 51,
+      "cities100": 42
     },
     {
       "id": 5,
       "name": "África",
       "description": "O berço da humanidade",
       "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80",
-      "bannerImage": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "bio": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3 % da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de mil milhões de pessoas (estimativa para 2005), representando cerca de um sétimo da população do mundo. Apresenta grande diversidade étnica, cultural, social e política.",
+      "coutriesCount": 54,
+      "languagesAmount": 2092,
+      "cities100": 6
     },
     {
       "id": 6,
       "name": "Oceania",
       "description": "O menor continente do mundo e também o mais novo",
       "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      "bannerImage": "https://images.unsplash.com/photo-1449480881392-716d0ea24a47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+      "bannerImage": "https://images.unsplash.com/photo-1449480881392-716d0ea24a47?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+      "bio": "A Oceania é o continente mais isolado do mundo, sua barreira geográfica fez com que fosse o último a ser descoberto pelos europeus. Em razão desse atraso em seu descobrimento ficou conhecido como 'mundo novo'.",
+      "coutriesCount": 14,
+      "languagesAmount": 820,
+      "cities100": 6
     }
   ]
 }

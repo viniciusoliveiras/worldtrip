@@ -25,7 +25,12 @@ export default function Continent({ continentSelected }: ContinentPageProps) {
 
       <BannerContinent continent={continentSelected} />
 
-      <ContinentsInfos />
+      <ContinentsInfos
+        bio={continentSelected.bio}
+        coutriesCount={continentSelected.coutriesCount}
+        languagesAmount={continentSelected.languagesAmount}
+        cities100={continentSelected.cities100}
+      />
 
       <CitiesPlus100 />
     </>

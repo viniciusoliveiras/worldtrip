@@ -1,7 +1,19 @@
 import { Flex, Text, Grid, GridItem, Tooltip } from '@chakra-ui/react';
 import { InfoOutlineIcon } from '@chakra-ui/icons';
 
-export function ContinentsInfos() {
+interface ContinentsInfosProps {
+  bio: string;
+  coutriesCount: number;
+  languagesAmount: number;
+  cities100: number;
+}
+
+export function ContinentsInfos({
+  bio,
+  coutriesCount,
+  languagesAmount,
+  cities100,
+}: ContinentsInfosProps) {
   return (
     <Flex
       mt='20'
@@ -18,10 +30,7 @@ export function ContinentsInfos() {
         lineHeight='9'
         color='gray.500'
       >
-        A Europa é, por convenção, um dos seis continentes do mundo.
-        Compreendendo a península ocidental da Eurásia, a Europa geralmente
-        divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
-        rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+        {bio}
       </Text>
       <Grid templateColumns='repeat(3, 1fr)' gap={0}>
         <GridItem align='center'>
@@ -31,7 +40,7 @@ export function ContinentsInfos() {
             lineHeight='4.5rem'
             color='yellow.500'
           >
-            50
+            {coutriesCount}
           </Text>
           <Text
             fontSize='2xl'
@@ -50,7 +59,7 @@ export function ContinentsInfos() {
             lineHeight='4.5rem'
             color='yellow.500'
           >
-            60
+            {languagesAmount}
           </Text>
           <Text
             fontSize='2xl'
@@ -69,7 +78,7 @@ export function ContinentsInfos() {
             lineHeight='4.5rem'
             color='yellow.500'
           >
-            27
+            {cities100}
           </Text>
           <Text
             fontSize='2xl'
@@ -79,7 +88,7 @@ export function ContinentsInfos() {
           >
             cidades +100
             <Tooltip
-              label='As cidades +100 são as cidades que aquele continente possui que estão entre as 100 cidades mais visitadas do mundo.'
+              label='As cidades +100 são as cidades que este continente possui que estão entre as 100 cidades mais visitadas do mundo.'
               aria-label='A tooltip'
             >
               <InfoOutlineIcon fontSize='md' color='gray.200' ml='2' />

@@ -4,4 +4,8 @@ export interface ContinentsProps {
   description: string;
   image: string;
   bannerImage: string;
+  bio: string;
+  coutriesCount: number;
+  languagesAmount: number;
+  cities100: number;
 }
