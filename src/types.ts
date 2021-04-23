@@ -1,4 +1,4 @@
-export interface ContinentsProps {
+export type ContinentsProps = {
   id: number;
   name: string;
   description: string;
@@ -8,4 +8,13 @@ export interface ContinentsProps {
   coutriesCount: number;
   languagesAmount: number;
   cities100: number;
+  citiesToShow: CitiesProps[];
+};
+
+export interface CitiesProps {
+  id: number;
+  name: string;
+  photo: string;
+  country: string;
+  flag: string;
 }

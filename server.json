@@ -9,7 +9,44 @@
       "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pelo divisor de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste. A Europa é limitada pelo oceano Glacial Ártico e outros corpos de água no norte, pelo oceano Atlântico a oeste, pelo mar Mediterrâneo ao sul, e pelo mar Negro e por vias navegáveis interligadas ao sudeste.",
       "coutriesCount": 50,
       "languagesAmount": 24,
-      "cities100": 32
+      "cities100": 32,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Londres",
+          "flag": "https://miro.medium.com/max/2625/1*Cq55pULfLn558iZiZea9Og.png",
+          "country": "Reino Unido",
+          "photo": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Paris",
+          "flag": "data:image/jpeg;base64,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",
+          "country": "França",
+          "photo": "https://images.unsplash.com/photo-1500313830540-7b6650a74fd0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Roma",
+          "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AkkbOKzcAjj2CvJbef4TNIC60ATKpAAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII=",
+          "country": "Itália",
+          "photo": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Praga",
+          "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAn1BMVEX////XFBoRRX7VAADrpKUARoDhDQYAR4PZExgARn/cERMAPXoAP3sAL3MAQHsAMXQANHUALHLbERRtg6UAOnj3+foANHZQbJbx8/bHGyqNL1M8QHTKGidCP3JHPnHNGCNPPW6dK0rSFh+lKEVaO2qpJ0J7jqzL0t1qgaPCytdhep65wtJadJuwusxLaZSns8fTmKCSLlGeKkldOmloOWWj3bVHAAAEIklEQVR4nO3WB3bUMBSFYd8HxhmmJIEhlBAIEHov+18bdspJZjzFRdJruiuQ//MdycWHIm99y8VH7iOIG9HxY+4zSBsRLWeZysqoWaaysssmmcrK6HqZyu1umtA0P0A3o9tlKte704Sm00ylGa0sU2m22iRTaUbry1TaTWg6+8x9KOa1m2Qqm5rUt4prKhubOKeypYlrKtua1FQ+cZ+Na9ub+KWyownR3CeVnU1ouvRIZXeThsoT7iMm374mHqnsbeKQSocm7qh0aeKNSrcmvqh0bFJT+eKGSucmjqh0b+KHSp8mXqj0auKESs8mNZWv3EeOvr5NPFDp38T+rTKgiXkqg5rQ9MjyrTKsiW0qQ5vQzC6VwU1qKt+MUhnRxCyVMU2IDk1SGdfEJpWRTUxSGd3EIJXxTexRCdHEGpUgTYz9qwRqYopKqCaWqIRrQrMTI1QCNmkeoGfc3xNiQZsYoRK2iQ0qoZvQVD+V4E0M/NZGaFLfKt+5P2vUYjSpqTzVfKvEaaKbSqQmqqlEa0KzQ61U4jXRSyVmE61UojZRSiVyE5VUYjfRSCV+E5rNlVFJ0EQdlSRNlN0qaZrUVH7ooZKqiaZbJVkTRVQSNlFDJWUTohMVVNI20fEAJW6igkryJrSY/+T+6D1L30Q+FY4m0qmwNBFOhamJaCpcTSRT4WsilwpjE6IjmVRYmwilwttEJhXuJhKpcCchgVS4gzRbHMuiwt3jarKocNe43mL+676UCWlSnT6/J2YimkyqFw8OIGYSmtRIHnJ3uDv+JsKQQEATaUjA3kQeEnA3EYgEvE1EIgFrE5lIwNhEKhLwNalOX8pEAq4mgpGAqYlkJGBpMql+C0YCjibVmWgkSN9EPBIkbyIfCRI30YAEaZuoQIKUTZQgQcImWpAgWRM9SJCqiSIkSNNEFRIkaVKdvVaEBAmaaEOC+E3UIUHsJqU+JIjcpHqlDwmiNtGJBDGbKEWCeE3UIkG0JnqRIFKTstSLBHGaqEaCGE3K6o1mJIjQRDsSBG9SltqRIHQTA0gQtokJJAjapDq3gAQBm1hBgnBNzCBBqCaGkCBQk+r8rRkkCNLEFhKEaGIMCcY3MYcEo5vYQ4KRTSwiwbgmJpFgTJOy/GMRCUY0sYoEg5vYRYKhTQwjwbAmppFgUBPbSDCgiXUk6N/EPBL0beIACXo2qS7sI0GvJj6QoE8TJ0jQvUlZvvOBBJ2b+EGCjk08IUG3Jq6QoEsTZ0jQoUl1AVdIsLeJPyTY18QhEuxu4hIJdjbxiQQ7mpQTn0iwvYlbJNjWxDESbGlS/fWLBBublJP3jpFgUxPnSNBu4h4JWk0yEqw1yUguV2Qkrd02KcuM5GpFRtJakW+S1oobJI+4TyJnRUbSWtEgOchI7q5okHAfQtiKfxnJ+v4DwkfdV8J/ACsAAAAASUVORK5CYII=",
+          "country": "República Tcheca",
+          "photo": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Amsterdã",
+          "flag": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAACmCAMAAADEfmKDAAAANlBMVEX////+/v4hRouuHCitGyggRYutGyeuHCchRoqtHCiuGycgRoohRYsgRYquGyghRYrks7e1wdiY8ETBAAABmUlEQVR4nO3ah20EMRAEQcp7l3+yikJXgHoqAi5vHR9/XrLOY9a5zzo67ZzzlFWudX0Ap5zwd1nl4faaVU54fQCnXOt6ujrlHV5XnFOudX33TnmH133WWa0XlUPX7yenHLpeJ51yresR45Rr/TOrHLrepJ1y6HrEOOWvrpuNU15pdMU55a+u309OeYfXPwk7++pF5eGmD+CUd3h99045dL1OOuVHq96knfJKow/gnO+sc5N1wvTdOwu9SNfbzFxENxtH3/zMXEQ3G0ff/BA67ZyFXqTrTdJ37yz0ooVepLvszMz8GT1iHH3zM9fSFeeUQw/Td+8s9KJy6GH67p1y6DMz/5zus46++SF+ss57Vjn056xzm3Uessqh64pzzltWuc3pAzjl0D+yyqHrtHPKoeu0c8rb3FdWudb1+8kp17pOO6fc5nTFOfupoqgcuq44Z3O9qJzwesQ45YTXB3DKCa8fEU454fWIccrbnP413Cn/eUw3G6c813Wzccq1rqerU651nXZOebjp95NT/ur6AE55uOn3kxNO+F8Aqgt6RyRSMQAAAABJRU5ErkJggg==",
+          "country": "Holanda",
+          "photo": "https://images.unsplash.com/photo-1518622923628-f909e4f7c583?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        }
+      ]
     },
     {
       "id": 2,
@@ -20,7 +57,37 @@
       "bio": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano.",
       "coutriesCount": 3,
       "languagesAmount": 256,
-      "cities100": 7
+      "cities100": 7,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Nova York",
+          "country": "Estados Unidos",
+          "photo": "https://images.unsplash.com/photo-1534430480872-3498386e7856?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Toronto",
+          "country": "Canadá",
+          "photo": "https://images.unsplash.com/photo-1507992781348-310259076fe0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/canada/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Cancún",
+          "country": "México",
+          "photo": "https://images.unsplash.com/photo-1552074284-5e88ef1aef18?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/mexico/flag-round-250.png"
+        },
+        {
+          "id": 4,
+          "name": "Havana",
+          "country": "Cuba",
+          "photo": "https://images.unsplash.com/photo-1500759285222-a95626b934cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/cuba/flag-round-250.png"
+        }
+      ]
     },
     {
       "id": 3,
@@ -31,7 +98,30 @@
       "bio": "A América do Sul tem paisagens incríveis e uma cultura riquíssima. A diversidade é outro ponto alto. Você pode escolher visitar praias com águas cristalinas, montanhas geladas e até cidades cosmopolitas.",
       "coutriesCount": 13,
       "languagesAmount": 456,
-      "cities100": 6
+      "cities100": 6,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Rio de Janeiro",
+          "country": "Brasil",
+          "photo": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Lima",
+          "country": "Peru",
+          "photo": "https://images.unsplash.com/photo-1560565882-0878e2072234?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/peru/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Buenos Aires",
+          "country": "Argentina",
+          "photo": "https://images.unsplash.com/photo-1487377330423-12f2f3e6d27a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/argentina/flag-round-250.png"
+        }
+      ]
     },
     {
       "id": 4,
@@ -42,7 +132,44 @@
       "bio": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico. O ponto extremo setentrional do continente está localizado no oceano Glacial Ártico.",
       "coutriesCount": 51,
       "languagesAmount": 51,
-      "cities100": 42
+      "cities100": 42,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Tóquio",
+          "country": "Japão",
+          "photo": "https://images.unsplash.com/photo-1480796927426-f609979314bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/japan/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Seul",
+          "country": "Coreia do Sul",
+          "photo": "https://cdn.pixabay.com/photo/2017/03/21/17/10/nightlife-2162772_960_720.jpg",
+          "flag": "https://cdn.countryflags.com/thumbs/south-korea/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Delhi",
+          "country": "Índia",
+          "photo": "https://images.unsplash.com/photo-1551594278-0162be5d00c3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/india/flag-round-250.png"
+        },
+        {
+          "id": 4,
+          "name": "Macau",
+          "country": "China",
+          "photo": "https://images.unsplash.com/photo-1556709911-93a82c864ece?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/china/flag-round-250.png"
+        },
+        {
+          "id": 5,
+          "name": "Cebu",
+          "country": "Filipinas",
+          "photo": "https://images.unsplash.com/photo-1611990786025-c4a0d99e62c0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/philippines/flag-round-250.png"
+        }
+      ]
     },
     {
       "id": 5,
@@ -53,7 +180,30 @@
       "bio": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3 % da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de mil milhões de pessoas (estimativa para 2005), representando cerca de um sétimo da população do mundo. Apresenta grande diversidade étnica, cultural, social e política.",
       "coutriesCount": 54,
       "languagesAmount": 2092,
-      "cities100": 6
+      "cities100": 6,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Cairo",
+          "country": "Egito",
+          "photo": "https://images.unsplash.com/photo-1521884189581-a6ede70026ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/egypt/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Cidade do Cabo",
+          "country": "África do Sul",
+          "photo": "https://images.unsplash.com/photo-1576485290814-1c72aa4bbb8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/south-africa/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Zanzibar",
+          "country": "Tanzânia",
+          "photo": "https://images.unsplash.com/photo-1570965483111-44cfc35d457a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/tanzania/flag-round-250.png"
+        }
+      ]
     },
     {
       "id": 6,
@@ -64,7 +214,30 @@
       "bio": "A Oceania é o continente mais isolado do mundo, sua barreira geográfica fez com que fosse o último a ser descoberto pelos europeus. Em razão desse atraso em seu descobrimento ficou conhecido como 'mundo novo'.",
       "coutriesCount": 14,
       "languagesAmount": 820,
-      "cities100": 6
+      "cities100": 6,
+      "citiesToShow": [
+        {
+          "id": 1,
+          "name": "Sydney",
+          "country": "Austrália",
+          "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/australia/flag-round-250.png"
+        },
+        {
+          "id": 2,
+          "name": "Auckland",
+          "country": "Nova Zelândia",
+          "photo": "https://images.unsplash.com/photo-1600208669687-f19af3638cb9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/new-zealand/flag-round-250.png"
+        },
+        {
+          "id": 3,
+          "name": "Suva",
+          "country": "Fiji",
+          "photo": "https://images.unsplash.com/photo-1582260168787-fc5ab5ce8b5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+          "flag": "https://cdn.countryflags.com/thumbs/fiji/flag-round-250.png"
+        }
+      ]
     }
   ]
 }

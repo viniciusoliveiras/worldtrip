@@ -32,7 +32,7 @@ export default function Continent({ continentSelected }: ContinentPageProps) {
         cities100={continentSelected.cities100}
       />
 
-      <CitiesPlus100 />
+      <CitiesPlus100 citiesToShow={continentSelected.citiesToShow} />
     </>
   );
 }
