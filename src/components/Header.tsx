@@ -28,7 +28,6 @@ export function Header({ isHomePage }: HeaderProps) {
             <Link href='/'>
               <ChevronLeftIcon
                 fontSize='32'
-                className='backButton'
                 position='absolute'
                 transform={{
                   md: 'translateX(-18rem)',

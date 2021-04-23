@@ -1,6 +1,7 @@
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import { BannerContinent } from '../../components/BannerContinent';
+import { ContinentsInfos } from '../../components/ContinentInfos';
 
 import { Header } from '../../components/Header';
 
@@ -22,6 +23,8 @@ export default function Continent({ continentSelected }: ContinentPageProps) {
       <Header isHomePage={false} />
 
       <BannerContinent continent={continentSelected} />
+
+      <ContinentsInfos />
     </>
   );
 }
