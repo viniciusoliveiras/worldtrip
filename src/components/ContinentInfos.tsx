@@ -16,18 +16,18 @@ export function ContinentsInfos({
 }: ContinentsInfosProps) {
   return (
     <Flex
-      mt='20'
-      mb='20'
-      ml='36'
-      mr='36'
+      mt={{ md: '10', lg: '14', xl: '20' }}
+      mb={{ md: '10', lg: '14', xl: '20' }}
+      ml={{ md: '10', lg: '12', xl: '36' }}
+      mr={{ md: '10', lg: '12', xl: '36' }}
       align='center'
       justify='space-between'
     >
       <Text
         w='xl'
         textAlign='justify'
-        fontSize='2xl'
-        lineHeight='9'
+        fontSize={{ md: 'lg', lg: 'xl', xl: '2xl' }}
+        lineHeight={{ md: '7', lg: '8', xl: '9' }}
         color='gray.500'
       >
         {bio}
@@ -35,7 +35,7 @@ export function ContinentsInfos({
       <Grid templateColumns='repeat(3, 1fr)' gap={0}>
         <GridItem align='center'>
           <Text
-            fontSize='5xl'
+            fontSize={{ md: '3xl', lg: '4xl', xl: '5xl' }}
             fontWeight='semibold'
             lineHeight='4.5rem'
             color='yellow.500'
@@ -43,10 +43,11 @@ export function ContinentsInfos({
             {coutriesCount}
           </Text>
           <Text
-            fontSize='2xl'
+            fontSize={{ md: 'lg', lg: 'xl', xl: '2xl' }}
             lineHeight='9'
             fontWeight='semibold'
             color='gray.500'
+            mt={{ md: '-4', lg: '-3', xl: '0' }}
           >
             países
           </Text>
@@ -54,7 +55,7 @@ export function ContinentsInfos({
 
         <GridItem align='center'>
           <Text
-            fontSize='5xl'
+            fontSize={{ md: '3xl', lg: '4xl', xl: '5xl' }}
             fontWeight='semibold'
             lineHeight='4.5rem'
             color='yellow.500'
@@ -62,10 +63,11 @@ export function ContinentsInfos({
             {languagesAmount}
           </Text>
           <Text
-            fontSize='2xl'
+            fontSize={{ md: 'lg', lg: 'xl', xl: '2xl' }}
             lineHeight='9'
             fontWeight='semibold'
             color='gray.500'
+            mt={{ md: '-4', lg: '-3', xl: '0' }}
           >
             línguas
           </Text>
@@ -73,7 +75,7 @@ export function ContinentsInfos({
 
         <GridItem align='center'>
           <Text
-            fontSize='5xl'
+            fontSize={{ md: '3xl', lg: '4xl', xl: '5xl' }}
             fontWeight='semibold'
             lineHeight='4.5rem'
             color='yellow.500'
@@ -81,10 +83,11 @@ export function ContinentsInfos({
             {cities100}
           </Text>
           <Text
-            fontSize='2xl'
+            fontSize={{ md: 'lg', lg: 'xl', xl: '2xl' }}
             lineHeight='9'
             fontWeight='semibold'
             color='gray.500'
+            mt={{ md: '-4', lg: '-3', xl: '0' }}
           >
             cidades +100
             <Tooltip

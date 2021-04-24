@@ -7,12 +7,33 @@ interface CitiesPlus100PageProps {
 
 export function CitiesPlus100({ citiesToShow }: CitiesPlus100PageProps) {
   return (
-    <Flex w='6xl' ml='36' mr='36' flexDirection='column'>
-      <Text fontSize='4xl' fontWeight='medium' lineHeight='10' color='gray.500'>
+    // {/* {{ md: 'repeat(3, 1fr)', lg: 'repeat(3, 1fr)', xl: 'repeat(4, 1fr)' }} */}
+
+    <Flex
+      w={{ md: 'xl', lg: '3xl', xl: '6xl' }}
+      ml={{ md: '28', lg: '20', xl: '36' }}
+      mr={{ md: '28', lg: '20', xl: '36' }}
+      flexDirection='column'
+    >
+      <Text
+        fontSize={{ md: '3xl', lg: '3xl', xl: '4xl' }}
+        fontWeight='medium'
+        lineHeight='10'
+        color='gray.500'
+      >
         Cidades +100
       </Text>
 
-      <Grid templateColumns='repeat(4, 1fr)' gap={12} mt='12' mb='8'>
+      <Grid
+        templateColumns={{
+          md: 'repeat(2, 1fr)',
+          lg: 'repeat(3, 1fr)',
+          xl: 'repeat(4, 1fr)',
+        }}
+        gap={12}
+        mt='12'
+        mb='8'
+      >
         {citiesToShow.map((city) => (
           <GridItem
             w='2xs'
