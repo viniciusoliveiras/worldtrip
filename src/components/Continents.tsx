@@ -56,6 +56,7 @@ export function Continents() {
                     alignItems='center'
                     flexDirection='column'
                     style={{ boxShadow: 'inset 0 0 0 50vw rgba(0,0,0,0.5)' }}
+                    cursor='pointer'
                   >
                     <Text
                       fontWeight='bold'

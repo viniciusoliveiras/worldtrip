@@ -34,6 +34,7 @@ export function Header({ isHomePage }: HeaderProps) {
                   lg: 'translateX(-23rem)',
                   xl: 'translateX(-28.5rem)',
                 }}
+                cursor='pointer'
               />
             </Link>
           )}
@@ -60,6 +61,7 @@ export function Header({ isHomePage }: HeaderProps) {
                 className='backButton'
                 position='absolute'
                 transform='translateX(-8rem)'
+                cursor='pointer'
               />
             </Link>
           )}
