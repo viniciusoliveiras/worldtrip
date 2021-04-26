@@ -7,6 +7,7 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 import { InfoOutlineIcon } from '@chakra-ui/icons';
+import { useState } from 'react';
 
 interface ContinentsInfosProps {
   bio: string;
@@ -25,6 +26,8 @@ export function ContinentsInfos({
     sm: false,
     md: true,
   });
+
+  const [isLabelOpen, setIsLabelOpen] = useState(false);
 
   return (
     <>
@@ -162,8 +165,16 @@ export function ContinentsInfos({
                 <Tooltip
                   label='As cidades +100 são as cidades que este continente possui que estão entre as 100 cidades mais visitadas do mundo.'
                   aria-label='A tooltip'
+                  isOpen={isLabelOpen}
                 >
-                  <InfoOutlineIcon fontSize='md' color='gray.200' ml='2' />
+                  <InfoOutlineIcon
+                    fontSize='md'
+                    color='gray.200'
+                    ml='2'
+                    onMouseEnter={() => setIsLabelOpen(true)}
+                    onMouseLeave={() => setIsLabelOpen(false)}
+                    onClick={() => setIsLabelOpen(true)}
+                  />
                 </Tooltip>
               </Text>
             </GridItem>
