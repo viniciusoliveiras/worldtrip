@@ -15,7 +15,7 @@
  <a href="#-projeto">Projeto</a> • 
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar">Como executar</a> • 
-	<a href="#-como-acessar">Como executar</a> • 
+	<a href="#-como-acessar">Como acessar</a> • 
  <a href="#-autor">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
