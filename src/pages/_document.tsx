@@ -15,6 +15,43 @@ export default class MyDocument extends Document {
             href='/images/favicon.png'
             type='image/png'
           />
+
+          {/* Primary Meta Tags  */}
+          <title>World Trip</title>
+          <meta name='title' content='World Trip' />
+          <meta
+            name='description'
+            content='Planeje viagens e conheça possíveis destinos.'
+          />
+
+          {/* Open Graph / Facebook  */}
+          <meta property='og:type' content='website' />
+          <meta
+            property='og:url'
+            content='https://worldtrip-viniciusoliveiras.vercel.app/'
+          />
+          <meta property='og:title' content='World Trip' />
+          <meta
+            property='og:description'
+            content='Planeje viagens e conheça possíveis destinos.'
+          />
+          <meta property='og:image' content='https://i.imgur.com/nDp6rGT.png' />
+
+          {/* Twitter  */}
+          <meta property='twitter:card' content='summary_large_image' />
+          <meta
+            property='twitter:url'
+            content='https://worldtrip-viniciusoliveiras.vercel.app/'
+          />
+          <meta property='twitter:title' content='World Trip' />
+          <meta
+            property='twitter:description'
+            content='Planeje viagens e conheça possíveis destinos.'
+          />
+          <meta
+            property='twitter:image'
+            content='https://i.imgur.com/nDp6rGT.png'
+          />
         </Head>
         <body>
           <Main />
