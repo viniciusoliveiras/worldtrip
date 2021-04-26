@@ -39,8 +39,7 @@ export function Continents() {
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            loop={true}
           >
             {continents.map((continent) => (
               <SwiperSlide key={continent.id}>
@@ -93,8 +92,7 @@ export function Continents() {
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            loop={true}
           >
             {continents.map((continent) => (
               <SwiperSlide key={continent.id}>
