@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next';
+import { GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
 import { BannerContinent } from '../../components/BannerContinent';
 import { CitiesPlus100 } from '../../components/CitiesPlus100';
@@ -37,7 +37,20 @@ export default function Continent({ continentSelected }: ContinentPageProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+export const getStaticPaths: GetStaticPaths = async () => {
+  const continents = await api.get('continents');
+
+  const paths = continents.data.map((continent) => ({
+    params: { continent: continent.name },
+  }));
+
+  return {
+    paths,
+    fallback: false,
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
   const { data } = await api.get('continents');
 
   const continentSelected: ContinentsProps = data.find(
@@ -46,5 +59,6 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
 
   return {
     props: { continentSelected },
+    revalidate: 60 * 60 * 24 * 2, //2 days
   };
 };
