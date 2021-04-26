@@ -15,12 +15,13 @@
  <a href="#-projeto">Projeto</a> • 
  <a href="#-layout">Layout</a> • 
  <a href="#-como-executar">Como executar</a> • 
+	<a href="#-como-acessar">Como executar</a> • 
  <a href="#-autor">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
 
 <h4 align="center"> 
-	🚧 Em construção... 🚧
+	🚧 Finalizado 🚧
 </h4>
 
 ## 🛠 Tecnologias
@@ -64,7 +65,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Yarn](https://yarnpkg.com/). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🧭 Rodando a aplicação
+#### 🌀 Rodando a aplicação
 
 ```bash
 
@@ -77,15 +78,16 @@ $ cd worldtrip
 # Instale as dependências
 $ yarn
 
-# Inicie o JSON Server para carregar os dados da API
-$ yarn server
-
 # Execute a aplicação
 $ yarn dev
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
 ```
+
+## 🚪 Como acessar
+
+Você pode acessar a aplicação através [`deste link`](https://worldtrip-viniciusoliveiras.vercel.app/) em seu navegador.
 
 ## ✍🏾 Autor
 <a href="https://github.com/viniciusoliveiras/">
